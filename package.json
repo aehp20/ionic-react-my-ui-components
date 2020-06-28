@@ -1,0 +1,24 @@
+{
+  "name": "ionic-react-my-ui-components",
+  "version": "1.0.0",
+  "description": "My own UI components from Ionic React framework. ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "index.js",
+  "author": "Aron Herrera Ponte",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/react": "^16.9.41",
+    "@types/react-dom": "^16.9.8",
+    "@types/styled-components": "^5.1.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.1.1"
+  },
+  "peerDependencies": {
+    "@types/styled-components": "^5.1.0",
+    "styled-components": "^5.1.1"
+  }
+}

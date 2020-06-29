@@ -1,0 +1,47 @@
+.alert-head {
+  background: var(--my-ui-alert-head-background);
+}
+
+.alert-title {
+  color: var(--my-ui-alert-title-color) !important;
+}
+
+.alert-message {
+  background: var(--my-ui-alert-message-background);
+  color: var(--my-ui-alert-message-color) !important;
+  padding-top: 20px !important;
+}
+
+.alert-message:empty {
+  padding-top: 0 !important;
+}
+
+.alert-radio-group {
+  background: var(--my-ui-alert-radio-group-background);
+  border-color: var(--my-ui-alert-radio-group-border-color) !important;
+}
+
+.alert-radio-icon {
+  border-color: var(--my-ui-alert-radio-icon-border-color) !important;
+}
+
+.alert-radio-inner {
+  border-color: var(--my-ui-alert-radio-inner-color) !important;
+}
+
+.alert-radio-inner.sc-ion-alert-md {
+  background-color: var(--my-ui-alert-radio-inner-color) !important;
+}
+
+.alert-radio-label {
+  color: var(--my-ui-alert-radio-label-color) !important;
+}
+
+.alert-button-group {
+  background: var(--my-ui-alert-button-group-background);
+}
+
+.alert-button {
+  background-color: var(--my-ui-alert-button-background-color) !important;
+  color: var(--my-ui-alert-button-color) !important;
+}

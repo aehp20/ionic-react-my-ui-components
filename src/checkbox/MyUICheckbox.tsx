@@ -4,7 +4,7 @@ import { JSX } from '@ionic/core'
 import { StyledMyUICheckbox } from './MyUICheckbox-Styles'
 
 export function MyUICheckbox(
-  props: JSX.IonCheckbox & HTMLAttributes<HTMLIonCheckboxElement>
+  props: JSX.IonCheckbox & HTMLAttributes<HTMLIonCheckboxElement>,
 ) {
   return <StyledMyUICheckbox {...props}>{props.children}</StyledMyUICheckbox>
 }

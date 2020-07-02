@@ -3,7 +3,7 @@ import { JSX } from '@ionic/core'
 import { IonFabList } from '@ionic/react'
 
 export function MyUIFabList(
-  props: JSX.IonFabList & HTMLAttributes<HTMLIonFabListElement>
+  props: JSX.IonFabList & HTMLAttributes<HTMLIonFabListElement>,
 ) {
   return <IonFabList {...props} />
 }

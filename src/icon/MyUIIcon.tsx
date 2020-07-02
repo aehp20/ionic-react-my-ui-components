@@ -7,7 +7,7 @@ import { save, trash } from 'ionicons/icons'
 import { IIonIconProps } from './MyUIIcon-Types'
 
 export function MyUIIcon(
-  props: IIonIconProps & IonicReactProps & HTMLAttributes<HTMLIonIconElement>
+  props: IIonIconProps & IonicReactProps & HTMLAttributes<HTMLIonIconElement>,
 ) {
   return <IonIcon {...props} />
 }

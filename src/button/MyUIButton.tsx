@@ -4,7 +4,7 @@ import { JSX } from '@ionic/core'
 import { StyledMyUIButton } from './MyUIButton-Styles'
 
 export function MyUIButton(
-  props: JSX.IonButton & HTMLAttributes<HTMLIonButtonElement>
+  props: JSX.IonButton & HTMLAttributes<HTMLIonButtonElement>,
 ) {
   return <StyledMyUIButton {...props}>{props.children}</StyledMyUIButton>
 }

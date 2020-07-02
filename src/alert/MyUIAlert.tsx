@@ -8,7 +8,7 @@ import './MyUIAlert-Styles.css'
 export function MyUIAlert(
   props: AlertOptions &
     ReactControllerProps &
-    RefAttributes<HTMLIonAlertElement>
+    RefAttributes<HTMLIonAlertElement>,
 ) {
   return <IonAlert {...props} />
 }

@@ -8,7 +8,7 @@ export function MyUIFabButton(
     HTMLAttributes<HTMLIonFabButtonElement> & {
       routerLink?: string | undefined
       routerDirection?: 'none' | 'forward' | 'back' | 'root' | undefined
-    }
+    },
 ) {
   return <StyledMyUIFabButton {...props} />
 }
